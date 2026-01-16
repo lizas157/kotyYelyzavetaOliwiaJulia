@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koty i Kłopoty - Poradnik Behawioralny</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <nav class="navbar">
+    <div class="container nav-container">
+        <div class="logo">
+            <a href="index.html" style="color: inherit; text-decoration: none;">
+                <i class="fas fa-cat"></i> Koty i Kłopoty
+            </a>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html#hero">Start</a></li>
+            <li><a href="stats.html">Statystyki</a></li>
+            <li><a href="import.html">Import Danych</a></li>
+            <li><a href="index.html#age-guide">Wiek</a></li>
+            <li><a href="index.html#specialists">Specjaliści</a></li>
+            <li><a href="index.html#crisis" class="btn-nav-crisis">SOS</a></li>
+        </ul>
+
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+</nav>
+
+    <header id="hero" class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-text fade-in-left">
+                <h1>Kiedy Twój kot<br>nie "kotuje"</h1>
+                <p>Kompleksowy poradnik dla właścicieli kotów z problemami natury kociej. Dowiedz się, co jest normą, a co wołaniem o pomoc.</p>
+                <div class="hero-buttons">
+                    <a href="#age-guide" class="btn btn-primary">Rozwiąż problem</a>
+                    <a href="#about" class="btn btn-outline">O nas</a>
+                </div>
+            </div>
+            <div class="hero-image fade-in-right">
+                <div class="blob-bg"></div>
+                <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Zdziwiony kot" class="floating-cat">
+            </div>
+        </div>
+    </header>
+
+    <section id="crisis" class="crisis-section">
+        <div class="container">
+            <h2 class="section-title">🚑 Kontakt w Sytuacjach Kryzysowych</h2>
+            <p class="section-subtitle">Twój kot nagle zmienił zachowanie? Jest agresywny lub apatyczny? Nie czekaj.</p>
+            <div class="crisis-grid">
+                <div class="crisis-card">
+                    <i class="fas fa-phone-alt"></i>
+                    <h3>Weterynarz 24/7</h3>
+                    <p>Dla nagłych przypadków zdrowotnych.</p>
+                    <a href="tel:112" class="btn btn-danger">Znajdź najbliższą klinikę</a>
+                </div>
+                <div class="crisis-card">
+                    <i class="fas fa-brain"></i>
+                    <h3>Czerwona Linia Behawioralna</h3>
+                    <p>Gdy boisz się własnego kota.</p>
+                    <a href="#" class="btn btn-danger">Porady doraźne</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <<section id="age-guide" class="age-section reveal">
+        <div class="container">
+            <h2 class="section-title">Etapy Życia a Zachowanie</h2>
+            <p class="section-subtitle">Co jest normalne dla kociaka, może być objawem choroby u seniora.</p>
+            
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1574158622682-e40e69881006?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60" alt="Kociak">
+                    </div>
+                    <div class="card-content">
+                        <h3>Kocięta (0-1 rok)</h3>
+                        <p class="status normal"><span class="dot green"></span> Norma: Gryzienie, szaleństwo</p>
+                        <p class="status alert"><span class="dot red"></span> Alarm: Apatia, brak apetytu</p>
+                        <a href="kocieta.html" class="btn-text" style="text-decoration: none; display: inline-block; margin-top: 10px;">Zobacz poradnik <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="card">
+                   <div class="card-img">
+    <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60" alt="Dorosły kot">
+</div>
+                    <div class="card-content">
+                        <h3>Dorosłe (1-7 lat)</h3>
+                        <p class="status normal"><span class="dot green"></span> Norma: Terytorializm, sen</p>
+                        <p class="status alert"><span class="dot red"></span> Alarm: Brak kuwety</p>
+                        <a href="dorosle.html" class="btn-text" style="text-decoration: none; display: inline-block; margin-top: 10px;">Zobacz poradnik <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1548802673-380ab8ebc7b7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60" alt="Senior kot">
+                    </div>
+                    <div class="card-content">
+                        <h3>Seniorzy (8+ lat)</h3>
+                        <p class="status normal"><span class="dot green"></span> Norma: Mniejsza aktywność</p>
+                        <p class="status alert"><span class="dot red"></span> Alarm: Dezorientacja</p>
+                        <a href="seniorzy.html" class="btn-text" style="text-decoration: none; display: inline-block; margin-top: 10px;">Zobacz poradnik <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="trauma" class="trauma-section reveal">
+        <div class="container split-container">
+            <div class="split-content">
+                <h2>Koty po przejściach i trauma</h2>
+                <p>Adoptowałeś dorosłego kota? Zmaga się z lękiem separacyjnym lub agresją lękową? To wymaga specjalnego podejścia.</p>
+                <ul class="trauma-list">
+                    <li><i class="fas fa-check-circle"></i> Technika "Bunkra" - bezpieczna strefa</li>
+                    <li><i class="fas fa-check-circle"></i> Socjalizacja z izolacją</li>
+                    <li><i class="fas fa-check-circle"></i> Suplementacja i feromony</li>
+                </ul>
+                <a href="#" class="btn btn-primary">Pobierz poradnik adaptacyjny</a>
+            </div>
+            <div class="split-image">
+                <img src="https://images.unsplash.com/photo-1513245543132-31f507417b26?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Nieśmiały kot">
+            </div>
+        </div>
+    </section>
+
+    <section id="specialists" class="specialists-section reveal">
+        <div class="container">
+            <h2 class="section-title">Znajdź Specjalistę</h2>
+            <div class="specialist-wrapper">
+                <div class="specialist-card">
+                    <div class="avatar" style="background-image: url('https://randomuser.me/api/portraits/women/44.jpg')"></div>
+                    <h4>Dr Anna Kotowska</h4>
+                    <span>Zoopsycholog</span>
+                    <a href="mailto:anna@example.com" class="contact-link">Napisz wiadomość</a>
+                </div>
+                <div class="specialist-card">
+                    <div class="avatar" style="background-image: url('https://randomuser.me/api/portraits/men/32.jpg')"></div>
+                    <h4>Piotr Mruczek</h4>
+                    <span>Behawiorysta COAPE</span>
+                    <a href="mailto:piotr@example.com" class="contact-link">Napisz wiadomość</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about-section">
+        <div class="container">
+            <h3>O projekcie</h3>
+            <p>Stworzyliśmy to miejsce, aby żaden właściciel nie czuł się bezradny wobec kociej natury. Łączymy wiedzę weterynaryjną z behawiorystyką.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-col">
+                <h4>Koty i Kłopoty</h4>
+                <p>Twój przewodnik po kocim świecie.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Social Media</h4>
+                <div class="social-links">
+                    <a href="#">Instagram</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">TikTok</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Kontakt</h4>
+                <p>kontakt@kotyiklopoty.pl</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Koty i Kłopoty. Wszelkie prawa zastrzeżone.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
